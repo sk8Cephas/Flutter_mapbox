@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "282685155183",
+    "firebase_url": "https://mapbox-flutter-fed9f-default-rtdb.firebaseio.com",
+    "project_id": "mapbox-flutter-fed9f",
+    "storage_bucket": "mapbox-flutter-fed9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282685155183:android:c175ccbbc17a41aea7ea9a",
+        "android_client_info": {
+          "package_name": "com.example.flutter_mapbox_blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282685155183-qmm27g71ls1pkgjn5a2rpni7533h724f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcvl-GM2wMruaR7CeGfa4p5JMWW-YueqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282685155183-qmm27g71ls1pkgjn5a2rpni7533h724f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "282685155183-o34mrjh4v0e972kc4b6rg9241e0umf06.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterMapboxBlog"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

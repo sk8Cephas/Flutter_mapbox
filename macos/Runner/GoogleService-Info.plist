@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>282685155183-o34mrjh4v0e972kc4b6rg9241e0umf06.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.282685155183-o34mrjh4v0e972kc4b6rg9241e0umf06</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDEd1v6kP0fSJhTbm7LXFt7x6tAcpC_14U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>282685155183</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.flutterMapboxBlog</string>
+	<key>PROJECT_ID</key>
+	<string>mapbox-flutter-fed9f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mapbox-flutter-fed9f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:282685155183:ios:b8c093a29829fefba7ea9a</string>
+</dict>
+</plist>
