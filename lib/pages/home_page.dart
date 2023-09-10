@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 33, 32, 32),
-        title: const Text('Flutter MapBox'),
+        title: const Text('ATU Map'),
       ),
       body: Stack(
         children: [
@@ -45,8 +45,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
             children: [
               TileLayer(
                 urlTemplate: 
-                "https://api.mapbox.com/styles/v1/captainkobs/clm8a8lf1013d01r757jxg0z8/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiY2FwdGFpbmtvYnMiLCJhIjoiY2xtNjFjaGk5MzJrdTNkczZnbjZzbThoMCJ9.nyvCx-LMGVuJ3JZGE1YJkw",
-                // "https://api.mapbox.com/styles/v1/captainkobs/clm62d0nr00x501r7acvc4s9y/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiY2FwdGFpbmtvYnMiLCJhIjoiY2xtNjFjaGk5MzJrdTNkczZnbjZzbThoMCJ9.nyvCx-LMGVuJ3JZGE1YJkw",
+                // "https://api.mapbox.com/styles/v1/captainkobs/clm8a8lf1013d01r757jxg0z8/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiY2FwdGFpbmtvYnMiLCJhIjoiY2xtNjFjaGk5MzJrdTNkczZnbjZzbThoMCJ9.nyvCx-LMGVuJ3JZGE1YJkw",
+                "https://api.mapbox.com/styles/v1/captainkobs/clm62d0nr00x501r7acvc4s9y/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiY2FwdGFpbmtvYnMiLCJhIjoiY2xtNjFjaGk5MzJrdTNkczZnbjZzbThoMCJ9.nyvCx-LMGVuJ3JZGE1YJkw",
                 additionalOptions: const {
                   'mapStyleId': AppConstants.mapBoxStyleId,
                   'accessToken': AppConstants.mapBoxAccessToken,

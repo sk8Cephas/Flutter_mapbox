@@ -2,10 +2,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mapbox_blog/pages/home_page.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import 'package:splash_view/source/presentation/pages/pages.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-import 'package:splash_view/source/presentation/presentation.dart';
+// import 'package:splash_view/source/presentation/presentation.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
