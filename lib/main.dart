@@ -51,7 +51,7 @@ class OnBoardingPageState extends State<OnBoardingPage> {
 
   Widget _buildFullscreenImage() {
     return Image.asset(
-      'img1.png',
+      'map1.png',
       fit: BoxFit.cover,
       height: double.infinity,
       width: double.infinity,
@@ -83,24 +83,23 @@ class OnBoardingPageState extends State<OnBoardingPage> {
       infiniteAutoScroll: true,
       pages: [
         PageViewModel(
-          title: "Fractional shares",
+          title: "Navigate endlessly",
           body:
               "Instead of having to buy an entire share, invest any amount you want.",
-          image: _buildImage('img1.png'),
+          image: _buildImage('assets/map1.png'),
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "Learn as you go",
           body:
               "Download the Stockpile app and master the market with our mini-lesson.",
-          image: _buildImage('img2.jpg'),
+          image: _buildImage('assets/map2.jpg'),
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Kids and teens",
-          body:
-              "Kids and teens can track their stocks 24/7 and place trades that you approve.",
-          image: _buildImage('img3.jpg'),
+          title: "The world of mapping",
+          body: "Satellite imagery, Eyes in the sky.",
+          image: _buildImage('assets/world.png'),
           decoration: pageDecoration,
         ),
       ],
