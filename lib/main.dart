@@ -84,14 +84,14 @@ class OnBoardingPageState extends State<OnBoardingPage> {
         PageViewModel(
           title: "Navigate endlessly",
           body:
-              "Instead of having to buy an entire share, invest any amount you want.",
+              "For some, the idea of navigating endlessly symbolizes the pursuit of lifelong learning and discovery.",
           image: _buildImage('assets/map1.png'),
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Learn as you go",
+          title: "Geographic Data",
           body:
-              "Download the Stockpile app and master the market with our mini-lesson.",
+              "The quality and accuracy of geographic data are essential to ensure reliable and informed decision-making in various fields.",
           image: _buildImage('assets/map2.jpg'),
           decoration: pageDecoration,
         ),
