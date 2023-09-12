@@ -51,7 +51,7 @@ final mapMarkers = [
     rating: 4,
   ),
   MapMarker(
-    image: 'assets/images/administration.jpg',
+    image: 'assets/images/src_complex.jpg',
     title: 'SRC COMPLEX',
     address: 'SRC COMPLEX',
     location: LatLng(5.55318, -0.20578),
